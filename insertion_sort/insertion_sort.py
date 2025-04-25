@@ -14,8 +14,6 @@ def insertion_sort(arr):
         arr[j+1] = key
     print("Sorted Array: ", arr)
 
-
-# 👇 Only runs if this file is executed directly
 if __name__ == "__main__":
     arr = user.get_integer_input()
     insertion_sort(arr)
