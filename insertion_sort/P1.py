@@ -15,5 +15,5 @@ def insertion_sort():
     print("Sorted array: ", arr)
 
 
-if __name__=="main":
+if __name__=="__main__":
     insertion_sort()
